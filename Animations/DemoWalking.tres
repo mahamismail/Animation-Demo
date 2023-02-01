@@ -1,0 +1,29 @@
+[gd_resource type="Animation" format=2]
+
+[resource]
+resource_name = "DemoWalking"
+length = 25.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("PlayerSprites:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1.5, 1.9, 3.4, 4.1, 4.9, 5.2, 7, 8.8, 9.8, 11.1, 11.9, 12.9, 13.7, 16, 17.5, 19, 20, 21.2, 22.5 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ "Idle", "WalkLeft", "WalkUp", "WalkLeft", "SlashLeft", "WalkDown", "WalkDown", "WalkLeft", "WalkUp", "WalkLeft", "WalkDown", "WalkLeft", "WalkUp", "WalkRight", "WalkUp", "WalkLeft", "WalkUp", "WalkLeft", "WalkUp", "WalkUp" ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 1.5, 1.9, 3.4, 4.1, 4.9, 5.2, 7, 8.8, 9.8, 11.1, 11.9, 12.9, 13.7, 16, 17.5, 19, 20, 21.2, 22.5 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 455, 290 ), Vector2( 455, 290 ), Vector2( 424, 290 ), Vector2( 424, 161 ), Vector2( 382, 161 ), Vector2( 382, 161 ), Vector2( 375, 161 ), Vector2( 375, 292 ), Vector2( 247, 292 ), Vector2( 247, 215 ), Vector2( 134, 215 ), Vector2( 134, 274 ), Vector2( 43, 274 ), Vector2( 43, 220 ), Vector2( 247, 215 ), Vector2( 247, 102 ), Vector2( 115, 102 ), Vector2( 115, 59 ), Vector2( 38, 59 ), Vector2( 38, -20 ) ]
+}
